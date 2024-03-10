@@ -38,42 +38,112 @@
 
 <body class="font-manrope">
     <header class="container max-w-[1170px]">
-        <nav>
-
-        </nav>
+        <!-- Navbar Start -->
+        <div class="navbar bg-base-100 py-4">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-lg md:text-3xl">FC Barcelona</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <button class="btn btn-primary bg-[#ff4240] hover:bg-[#ff4340d1] border-0 text-white">Get
+                    Ticket</button>
+            </div>
+        </div>
 
         <!-- Slider Start -->
         <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full h-96">
+            <div id="slide1" class="carousel-item relative w-full h-[500px]">
                 <img src="images/slider-1.jpg" class="w-full object-cover" />
+                <div class="bg-[#131318] p-8 rounded-lg w-[600px] space-y-4 md:absolute bottom-8 right-8">
+                    <h1 class="text-2xl font-extrabold text-white">Barça vs Napoli ticket draw</h1>
+                    <p class="text-base font-medium text-white">Participate in our giveaway to win two tickets for
+                        the Barça -
+                        Napoli match.</p>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-full h-96">
+            <div id="slide2" class="carousel-item relative w-full h-[500px]">
                 <img src="images/slider-2.jpg" class="w-full object-cover" />
+                <div class="bg-[#131318] p-8 rounded-lg w-[600px] space-y-4 md:absolute bottom-8 right-8">
+                    <h1 class="text-2xl font-extrabold text-white">Barça vs Napoli ticket draw</h1>
+                    <p class="text-base font-medium text-white">Participate in our giveaway to win two tickets for
+                        the Barça -
+                        Napoli match.</p>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-full h-96">
+            <div id="slide3" class="carousel-item relative w-full h-[500px]">
                 <img src="images/slider-3.jpg" class="w-full object-cover" />
+                <div class="bg-[#131318] p-8 rounded-lg w-[600px] space-y-4 md:absolute bottom-8 right-8">
+                    <h1 class="text-2xl font-extrabold text-white">Barça vs Napoli ticket draw</h1>
+                    <p class="text-base font-medium text-white">Participate in our giveaway to win two tickets for
+                        the Barça -
+                        Napoli match.</p>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide4" class="carousel-item relative w-full h-96">
+            <div id="slide4" class="carousel-item relative w-full h-[500px]">
                 <img src="images/slider-4.jpg" class="w-full object-cover" />
+                <div class="bg-[#131318] p-8 rounded-lg w-[600px] space-y-4 md:absolute bottom-8 right-8">
+                    <h1 class="text-2xl font-extrabold text-white">Barça vs Napoli ticket draw</h1>
+                    <p class="text-base font-medium text-white">Participate in our giveaway to win two tickets for
+                        the Barça -
+                        Napoli match.</p>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide5" class="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="slide5" class="carousel-item relative w-full h-96">
+            <div id="slide5" class="carousel-item relative w-full h-[500px]">
                 <img src="images/slider-5.jpg" class="w-full object-cover" />
+                <div class="bg-[#131318] p-8 rounded-lg w-[600px] space-y-4 md:absolute bottom-8 right-8">
+                    <h1 class="text-2xl font-extrabold text-white">Barça vs Napoli ticket draw</h1>
+                    <p class="text-base font-medium text-white">Participate in our giveaway to win two tickets for
+                        the Barça -
+                        Napoli match.</p>
+                </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
@@ -432,9 +502,9 @@
                 <p class="text-base font-medium">Schedules and services at FC Barcelona (All times CET)</p>
             </div>
 
-            <div class="grid grid-cols-3 gap-6">
-                <div class="col rounded-md border border-slate-200">
-                    <div class="p-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 md:gap-6">
+                <div class="col rounded-md border border-slate-200 mb-8 md:mb-0">
+                    <div class="p-4 md:p-12">
                         <div class="card w-full bg-[#bced6d1a] shadow-xl mb-6">
                             <div class="card-body space-y-2">
                                 <img src="images/phone.png" class="w-12 h-12" />
@@ -462,8 +532,8 @@
                 </div>
 
                 <div class="col-span-2">
-                    <form class="p-4">
-                        <div class="grid grid-cols-2 gap-4 mb-4">
+                    <form class="md:p-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                             <div class="space-y-2">
                                 <label class="font-extrabold">Your Name</label>
                                 <input type="text" placeholder="Enter your full name"
@@ -476,7 +546,7 @@
                             </div>
                         </div>
 
-                        <div class="grid grid-cols-2 gap-4 mb-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                             <div class="space-y-2">
                                 <label class="font-extrabold">Subject</label>
                                 <input type="text" placeholder="Enter your subject"
@@ -500,6 +570,17 @@
                             Message</button>
                     </form>
                 </div>
+            </div>
+        </div>
+
+        <!-- Social Media Start -->
+        <div class="mb-12 py-8 bg-[#bced6d1a] ">
+            <h2 class="text-2xl font-extrabold pb-3 text-center">Social Media</h2>
+            <div class="flex justify-center gap-6">
+                <i class="fa-brands fa-x-twitter text-2xl"></i>
+                <i class="fa-brands fa-facebook text-2xl"></i>
+                <i class="fa-brands fa-instagram text-2xl"></i>
+                <i class="fa-brands fa-github text-2xl"></i>
             </div>
         </div>
     </main>
